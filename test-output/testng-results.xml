@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[admin   admin]]>
+    </line>
+    <line>
+      <![CDATA[admin   manager]]>
+    </line>
+    <line>
+      <![CDATA[amanager   manager]]>
+    </line>
+    <line>
+      <![CDATA[ankur   verma]]>
+    </line>
+    <line>
+      <![CDATA[kunal   anything]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="734" started-at="2021-03-18T10:24:42Z" finished-at="2021-03-18T10:24:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="734" started-at="2021-03-18T10:24:42Z" finished-at="2021-03-18T10:24:43Z">
+      <class name="Org.testngDemo.TestDataP">
+        <test-method status="PASS" signature="TC(java.lang.String, java.lang.String)[pri:0, instance:Org.testngDemo.TestDataP@62ee68d8]" name="TC" duration-ms="0" started-at="2021-03-18T15:54:43Z" data-provider="read" finished-at="2021-03-18T15:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[admin   admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(java.lang.String, java.lang.String)[pri:0, instance:Org.testngDemo.TestDataP@62ee68d8]" name="TC" duration-ms="1" started-at="2021-03-18T15:54:43Z" data-provider="read" finished-at="2021-03-18T15:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[admin   manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(java.lang.String, java.lang.String)[pri:0, instance:Org.testngDemo.TestDataP@62ee68d8]" name="TC" duration-ms="0" started-at="2021-03-18T15:54:43Z" data-provider="read" finished-at="2021-03-18T15:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anything]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[kunal   anything]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(java.lang.String, java.lang.String)[pri:0, instance:Org.testngDemo.TestDataP@62ee68d8]" name="TC" duration-ms="0" started-at="2021-03-18T15:54:43Z" data-provider="read" finished-at="2021-03-18T15:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[verma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ankur   verma]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(java.lang.String, java.lang.String)[pri:0, instance:Org.testngDemo.TestDataP@62ee68d8]" name="TC" duration-ms="0" started-at="2021-03-18T15:54:43Z" data-provider="read" finished-at="2021-03-18T15:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[amanager   manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC -->
+      </class> <!-- Org.testngDemo.TestDataP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
